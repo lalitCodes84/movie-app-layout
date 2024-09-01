@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Baskervville SC", serif;
+}
+.heading{
+    text-align: center;
+}
+.parent{
+    /* border: 1px solid black; */
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+}
+.parent div{
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.parent div div{
+    border: 1px solid black;
+    /* text-align: center; */
+}
+.parent div img{
+    border: 1px solid black;
+    width: 100%;
+}
+.parent h1{
+    color: black;
+}
+.parent p{
+    margin-top: 0;
+    /* border: 1px solid black; */
+}
+.parent button{
+    border: none;
+    background-color: #95d2f4;
+    margin-bottom: 2vh;
+    margin-top: 0;
+    padding: 2px 5px;
+    cursor: pointer;
+    
+}
+::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
